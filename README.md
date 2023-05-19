@@ -1,13 +1,3 @@
-# Sample Hardhat Project
+# Fundraising
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
-```
+Fundraising is a reusable fundraising contract that supports multiple currencies. The project initiators can start a fundraising campaign by simply specifying the desired currency, quantity, duration of the campaign, lock-up period for the fundraising assets, and the interest rate paid to users. Users can choose to participate in suitable fundraising campaigns by pledging their idle assets to the Fundraising contract, earning substantial returns. Once the lock-up period for the assets expires, users can retrieve their assets and receive the corresponding profits.
